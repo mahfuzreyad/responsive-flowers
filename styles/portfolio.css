@@ -98,9 +98,9 @@
     border: none;
 }
 /* Flower & Plants Lover related styles */
-.bg-image{
-    background-image: url(../assets/flower-store.png);
-    position: absolute;
+.flower{
+    /* background-image: url(../assets/flower-store.png); */
+    position: relative;
 }
 .plant-lover{
     max-width: 1140px;
@@ -113,12 +113,21 @@
     height: 600px;
     width: 540px;
 } */
+ .bg-image{
+    position: relative;
+    margin-top: 100px;
+ }
 .flower{
     height: 386px;
     width: 286px;
-    margin-left: 400px;
-    margin-top: -338px;
-    position: relative;
+    /* margin-left: 400px; */
+    /* margin-top: -338px; */
+    position: absolute;
+    right: -80px;
+    top: -180px;
+}
+.position{
+    margin-left: 70px;
 }
 .plant-title{
     font-weight: bold;
@@ -275,6 +284,9 @@
     .box-3{
         width: 360px;
         height: 170px;
+    }
+    .remove{
+        display: none;
     }
     
 }
